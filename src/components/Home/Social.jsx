@@ -18,6 +18,14 @@ const Social = () => {
         >
         <i className="uil uil-github-alt"></i>
         </a>
+
+        <a
+        href="https://open.spotify.com/user/31qhggchctjgwke6ml4sfebjrbzy"
+        className="home__social-icon"
+        target="_blank"
+        >
+        <i class='bx bxl-spotify'></i>
+        </a>
     </div>
     );
 };

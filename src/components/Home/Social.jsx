@@ -24,7 +24,7 @@ const Social = () => {
         className="home__social-icon"
         target="_blank"
         >
-        <i class='bx bxl-spotify'></i>
+        <i className='bx bxl-spotify'></i>
         </a>
     </div>
     );

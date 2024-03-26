@@ -71,19 +71,20 @@ const Data = () => {
             lifeLike: true,
             delayStart: 1000,
             deleteSpeed: 50, 
-            cursor: false, 
+            speed: 55,
+
         }}
         getBeforeInit={(instance) => {
             instance
             .type(introdata.animated.first)
-            .pause(1000)
-          .delete(introdata.animated.first.length) // Delete the first string
+            .pause(1300)
+            .delete(introdata.animated.first.length)
             .type(introdata.animated.second)
-            .pause(1000) 
+            .pause(1300)
             .delete(introdata.animated.second.length) 
-            .pause(1000)
+            .pause(1300)
             .type(introdata.animated.third)
-            .pause(1000)
+            .pause(1300)
             .delete(introdata.animated.third.length) 
             .go();
 

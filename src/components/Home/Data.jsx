@@ -79,6 +79,7 @@ const Data = () => {
             .type(introdata.animated.first)
             .pause(1300)
             .delete(introdata.animated.first.length)
+            .pause(1300)
             .type(introdata.animated.second)
             .pause(1300)
             .delete(introdata.animated.second.length) 

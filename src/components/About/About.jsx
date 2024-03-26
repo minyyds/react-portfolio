@@ -17,14 +17,14 @@ const About = () => {
         <Info />
 
         <p className="about__description">
-        After grappling with career decisions, I stumbled upon the Skills edX Course. Despite my lack of prior experience in the field, 
-        I embraced the opportunity. Now, having completed the course and awaiting certification, I'm fueled by a newfound eagerness to learn, 
-        refine my skills, and fearlessly explore new avenues for innovation.
+        Eager learner, completed an edX course with certification 
+        pending. Fueled by curiosity, constantly refining skills, and 
+        always aiming to improve.
         </p>
 
         <a download="minesh-parekh-cv" href={CV} className="button button--flex">Download CV
         <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

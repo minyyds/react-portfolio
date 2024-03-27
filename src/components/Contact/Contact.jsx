@@ -1,7 +1,27 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import "./contact.css"
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+        .sendForm('service_slnqtv5', 'template_61l8pdp', form.current, {
+            publicKey: '9equdOWUKHoSDIBS0',
+        })
+        .then(
+            () => {
+            console.log('SUCCESS!');
+            },
+            (error) => {
+            console.log('FAILED...', error.text);
+            },
+        );
+        e.target.reset()
+    };
     return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Get in Touch</h2>
@@ -16,9 +36,9 @@ const Contact = () => {
                         <i className="bx bxl-linkedin-square contact__card-icon"></i>
 
                         <h3 className="contact__card-title">LinkedIn</h3> 
-                        <span className="contact__card-data"><a href="">Shoot me a message!</a></span>
+                        <span className="contact__card-data">Shoot me a message!</span>
 
-                        <a href="https://www.linkedin.com/in/minparekh/" className="contact__button">Go <i className="bx bx-right-arrow-alt contact_-button-icon"></i></a>
+                        <a href="https://www.linkedin.com/in/minparekh/" className="contact__button">Go <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -26,7 +46,7 @@ const Contact = () => {
             <div className="contact__content">
                 <h3 className="contact__title">Write me a message</h3>
 
-                <form action="" className="contact__form">
+                <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
                         <input type="text" name="name" className='contact__form-input' placeholder='John Smith'/>
@@ -37,8 +57,8 @@ const Contact = () => {
                         <input type="email" name="email" className='contact__form-input' placeholder='example@example.com'/>
                     </div>
 
-                    <div className="contact__form-div">
-                        <label className="contact__form-tag">Message</label>
+                    <div className="contact__form-div contact__form-area">
+                        <label className="contact__form-tag ">Message</label>
                         <textarea name="message" cols="30" rows="10" className='contact__form-input' placeholder='Write your message here'></textarea>
                     </div>
 

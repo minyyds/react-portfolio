@@ -12,7 +12,7 @@ const Languages = () => {
     
                 <div>
                     <h3 className="skills__name">HTML</h3>
-                    <span className="skills__level">Proficient</span>
+                    <span className="skills__level">Intermediate</span>
                 </div>
                 </div>
     
@@ -41,7 +41,7 @@ const Languages = () => {
     
                 <div>
                     <h3 className="skills__name">Git</h3>
-                    <span className="skills__level">Proficient</span>
+                    <span className="skills__level">Intermediate</span>
                 </div>
                 </div>
     
@@ -59,7 +59,7 @@ const Languages = () => {
     
                 <div>
                     <h3 className="skills__name">Mobile Responsive</h3>
-                    <span className="skills__level">Proficient</span>
+                    <span className="skills__level">Advanced</span>
                 </div>
                 </div>
             </div>

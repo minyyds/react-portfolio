@@ -6,21 +6,21 @@ export const Data = [
     {
     id: 1,
     image: Image1,
-    title: "Chersilnt Ntervisi",
+    title: "Chersilnt Ntervisi - edX Alumni",
     description:
     `"Minesh’s attention to detail, problem-solving skills, and ability to work seamlessly within a team were commendable."`
     },
     {
     id: 2,
     image: Image2,
-    title: "Toussaint Phillips",
+    title: "Toussaint Phillips - edX Alumni",
     description:
     `"With his combination of technical prowess and design sensibility, Minesh would be a valuable asset to any team."`,
     },
     {
         id: 3,
         image: Image3,
-        title: "Niroshi Lawin",
+        title: "Niroshi Lawin - edX Alumni",
         description:
         `"Minesh's ability to work harmoniously within a team, coupled with his outstanding communication skills, renders him an invaluable addition to any group."`
     },

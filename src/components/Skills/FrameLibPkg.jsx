@@ -30,7 +30,7 @@ const FrameLibPkg = () => {
     
                     <div>
                         <h3 className="skills__name">Node</h3>
-                        <span className="skills__level">Proficient</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const FrameLibPkg = () => {
     
                     <div>
                         <h3 className="skills__name">JQuery</h3>
-                        <span className="skills__level">Proficient</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                     </div>
     

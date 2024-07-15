@@ -100,7 +100,7 @@ const Qualifications = () => {
                                 <h3 className="qualification__title">Virtual Internship</h3>
                                 <span className="qualification__subtitle">12 Week Front-End Internship</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> May 27th 2024
+                                    <i className="uil uil-calendar-alt"></i> June 24th 2024
                                 </div>
                             </div>
 

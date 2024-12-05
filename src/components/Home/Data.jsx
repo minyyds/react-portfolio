@@ -94,7 +94,7 @@ const Data = () => {
         />
         <p className="home__description">
         {" "}
-        I'm a junior, yet eager to learn junior front-end developer. I'm always
+        I'm a junior, yet eager to learn front-end developer. I'm always
         passionate about learning more and expanding my knowledge in the field.
         </p>
 

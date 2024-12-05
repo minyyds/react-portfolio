@@ -18,7 +18,7 @@ const About = () => {
 
         <p className="about__description">
         Eager learner, completed an edX course with certification 
-        pending. Fueled by curiosity, constantly refining skills, and 
+        recieved. Fueled by curiosity, constantly refining skills, and 
         always aiming to improve.
         </p>
 
